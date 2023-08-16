@@ -10,6 +10,22 @@ body {
 }
 
 .flex-container {
+	display: flex;
+}
+
+.flex-container div {
+	height: 100px;
+    flex: 1
+}
+
+
+.info h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.flex-container {
 	padding: 100px;
 }
 
@@ -29,8 +45,45 @@ body {
     padding: 100px;
 }
 
-.section-quote p {
+.section-quote q {
     font-size: 36px;
     font-style: light italic;
     color: #1F2937;
+}
+
+.test {
+	background-color: #3882F6;
+    color:#F9FAF8;
+    padding: 100px;
+}
+
+/* .section-call {
+    background-color: #3882F6;
+    color:#F9FAF8;
+    padding: 100px;
+}
+*/
+
+.section-call-info {
+	text-align: left;
+}
+
+.section-call-button {
+	text-align: right;
+}
+
+button {
+	background-color: #3882F6;
+    color: #F9FAF8;
+	border-color: #F9FAF8;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 10px 75px 10px;
+}
+
+.footer {
+    color: #F9FAF8;
+    padding: 50px;
+    text-align: center;
+ 
 }
