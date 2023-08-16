@@ -20,17 +20,17 @@
 
 */
     
-section {
+.section-info section {
     background-color: aliceblue;
 }
 
 .section-info h2 {
     font-size: 36px;
-    font-weight: bolder;
+    font-weight: bold;
     color: #1F2937
 }
 
-.section-quote {
+.section-quote section {
     background-color: #E5E7EB;
 }
 
