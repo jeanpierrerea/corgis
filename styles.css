@@ -69,6 +69,16 @@ header {
     color: #E5E7EB;
 }
 
+.main-image {
+    text-align: justify;
+}
+
+.main-image img {
+    width: 400px;
+    height: auto;
+    border-radius: 5px;
+}
+
 /* Meeting Corgi Section */
 
 .section-info {
@@ -83,11 +93,11 @@ header {
     text-align: center;
 }
 
-.corgi1 img {
-    width: 400px;
-    height: auto;
-    border-radius: 5px;
+.corgi-images {
+    display: flex;
+    justify-content: space-between;
 }
+
 
 /* Quote Section */
 
