@@ -46,22 +46,35 @@ button {
 .flex-container {
 	display: flex;
     padding: 100px;
+    gap: 50px;
 }
 
 .flex-container div {
-	height: 100px;
-    flex: 1
+	height: 200px;
+    flex: 1;
 }
 
 header {
-    height: 75px;
+    height: 150px;
     color: #F9FAF8;
+}
+
+.header-image img {
+    height: 75px;
+}
+
+/* Main */
+
+.main-info {
+    background-color: #1F2937;
+    padding: 75px;
 }
 
 .main-info h1 {
     font-size: 48px;
     font-weight: bold;
     color: #F9FAF8;
+
 }
 
 .main-info p {
@@ -69,8 +82,12 @@ header {
     color: #E5E7EB;
 }
 
+.main-button {
+    padding-top: 10px;
+}
+
 .main-image {
-    text-align: justify;
+    text-align: center;
 }
 
 .main-image img {
@@ -78,6 +95,8 @@ header {
     height: auto;
     border-radius: 5px;
 }
+
+
 
 /* Meeting Corgi Section */
 
@@ -96,6 +115,11 @@ header {
 .corgi-images {
     display: flex;
     justify-content: space-between;
+    text-align: center;
+}
+
+.corgi-images img {
+    width: 80%;
 }
 
 
@@ -103,29 +127,39 @@ header {
 
 .section-quote {
     background-color: #E5E7EB;
-    padding: 100px;
+    padding: 100px 500px;
 }
 
 .section-quote q {
     font-size: 36px;
-    font-style: light italic;
+    font-style: italic;
     color: #1F2937;
+}
+
+.section-quote p {
+    text-align: right;
+    font-weight: bold;
 }
 
 /* Call-to-action Section */
 
 .call {
-	background-color: #3882F6;
     color:#F9FAF8;
-    padding: 100px;
+    background-color: #F9FAF8;
+    padding: 100px 300px;
 }
 
-/* .section-call {
+.flex-container-call {
+	display: flex;
+    padding: 50px 150px;
+    gap: 25 px;
     background-color: #3882F6;
-    color:#F9FAF8;
-    padding: 100px;
 }
-*/
+
+.flex-container-call div {
+	height: 50px;
+    flex: 1;
+}
 
 .section-call-info {
 	text-align: left;
@@ -138,7 +172,6 @@ header {
 .section-call-button button {
 	border-color: #F9FAF8;
 }
-
 
 
 /* Footer */
